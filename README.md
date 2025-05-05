@@ -19,5 +19,21 @@ image fusion and semantic segmentation framework optimized
 for edge devices. The proposed system cascades image fusion
 and semantic segmentation network, enabling both tasks to learn
 representations jointly. 
+![Alt text](https://github.com/faizan1234567/RailGuard/blob/main/media/railguard_pic.png)
 
+## Installation
+Anconda environment recommended.
+git clone https://github.com/faizan1234567/RailGuard
+cd RailGuard
+
+create a virtual environment in Anaconda and activate it.
+conda create -n railguard python=3.9.0 -y 
+conda activate railguard
+
+Now install all the dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+
+
+## Usage
 
