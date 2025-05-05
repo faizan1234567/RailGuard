@@ -41,4 +41,31 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+To train and evaluate the RailGuard:
+```
+python train.py -h
+python train.py \
+  --model_name RailGuard \
+  --dataset_root /drive/data/MSRS/segmentation \
+  --batch_size 4 \
+  --gpu 0 \
+  --num_workers 8 \
+  --fusion_epochs 10 \
+  --seg_epochs 20000 \
+  --pretrained \
+  --M 4 \
+  --save_path runs/
+```
 
+To test the model on the tess set use the following command:
+```
+python test.py -h
+python test.py \
+  --model_path ./checkpoints/fusion_model_epoch10.pth \
+  --ir_dir ./train_imgs/ir \
+  --vi_dir ./train_imgs/vi \
+  --save_dir ./runs/SeAFusion_train \
+  --batch_size 8 \
+  --gpu 0 \
+  --num_workers 4 \
+   ```
