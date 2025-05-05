@@ -21,6 +21,39 @@ and semantic segmentation network, enabling both tasks to learn
 representations jointly. 
 ![Alt text](https://github.com/faizan1234567/RailGuard/blob/main/media/railguard_pic.png)
 
+## RRL Visible Infrared Image Fusion and Object Detection Dataset
+Existing image fusion datasets are acquired for general-purpose applications across diverse scenarios. However, to the best of our knowledge, there is currently no comprehensive benchmark dataset specifically collected for railway contexts to enable research and development. This domain is particularly susceptible to accidents caused by road user negligence and obstacles on the tracks.
+
+These obstacles pose a significant danger such as derailing locomotives, causing serious injuries, loss of human lives, and significant damage to the train. Timely detection of such obstacles could help avoid catastrophic accidents, especially in low-visibility conditions.
+
+The proposed railFusion dataset contains high-resolution visible and infrared images under various scenarios. The data were captured using the HIKVision thermal and optical bi-spectrum speed dome DS-2TD4167-50/W model, which recorded both visible and infrared scene details.
+
+- Resolution: 1280 × 960 pixels
+
+- Frame rate: 25 FPS
+
+The railFusion dataset consists of:
+
+- 3,100 image pairs (visible + infrared)
+
+- 16,203 annotated objects
+
+The major annotation categories include:
+
+- Vehicle
+
+- Motorcycle
+
+- Person
+
+The dataset covers diverse scenarios, including:
+
+- Objects crossing the tracks at level crossings
+
+- People and animals in densely populated areas
+
+The dataset can be downloaded from Zenodo: 
+
 ## Installation
 Anconda environment recommended.
 ```
