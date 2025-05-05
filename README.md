@@ -52,7 +52,7 @@ The dataset covers diverse scenarios, including:
 
 - People and animals in densely populated areas
 
-The dataset can be downloaded from Zenodo: 
+The dataset can be downloaded from figshare: https://figshare.com/articles/dataset/rrl_data_zip/28929923
 
 ## Installation
 Anconda environment recommended.
