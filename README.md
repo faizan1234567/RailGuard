@@ -23,17 +23,22 @@ representations jointly.
 
 ## Installation
 Anconda environment recommended.
+```
 git clone https://github.com/faizan1234567/RailGuard
 cd RailGuard
+```
 
 create a virtual environment in Anaconda and activate it.
+```
 conda create -n railguard python=3.9.0 -y 
 conda activate railguard
+```
 
 Now install all the dependencies
+```
 pip install --upgrade pip
 pip install -r requirements.txt
-
+```
 
 ## Usage
 
