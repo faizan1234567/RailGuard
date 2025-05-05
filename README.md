@@ -69,3 +69,13 @@ python test.py \
   --gpu 0 \
   --num_workers 4 \
    ```
+## Cite
+If you find this project useful in your research, please consider cite and star the repository:
+```
+@misc{brats23-tumor-segmentation,
+    title={Multi-modal BraTS 2023 brain tumor segmentation},
+    author={Muhammad Faizan},
+    howpublished = {\url{https://github.com/faizan1234567/Brats-20-Tumors-segmentation}},
+    year={2023}
+}
+```
