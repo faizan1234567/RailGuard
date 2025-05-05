@@ -1,0 +1,15 @@
+# some directory and files not to be pushed
+fused_comparison/
+logger/
+runs/
+runs1/
+runs2/
+v2/
+logfile.txt
+logtrain1.txt
+logtrain2.txt
+x_ir.png
+x_vi.png
+*.zip
+*.pdf
+.docx
