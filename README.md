@@ -46,6 +46,8 @@ The major annotation categories include:
 
 - Person
 
+- Animals
+
 The dataset covers diverse scenarios, including:
 
 - Objects crossing the tracks at level crossings
