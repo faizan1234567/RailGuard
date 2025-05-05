@@ -79,3 +79,12 @@ If you find this project useful in your research, please consider cite and star 
     year={2023}
 }
 ```
+
+## Acknowledgements
+[1]. https://github.com/Linfeng-Tang/SeAFusion
+
+[2]. https://github.com/JinyuanLiu-CV/TarDAL
+
+[3]. https://github.com/wdzhao123/MetaFusion
+
+[4]. https://github.com/hli1221/imagefusion_densefuse
