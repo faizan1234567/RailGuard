@@ -69,7 +69,7 @@ conda create -n railguard python=3.9.0 -y
 conda activate railguard
 ```
 
-Now install all the dependencies
+Now install all the dependencies.
 ```
 pip install --upgrade pip
 pip install -r requirements.txt
